@@ -99,6 +99,7 @@ function Upload() {
 
             setStatusText('Analysis complete, redirecting...');
             console.log(data);
+            navigate(`/resume/${uuid}`)
 
             // optional navigation
             // navigate(`/resume/${uuid}`);
